@@ -1,0 +1,397 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+button{
+    padding: 11px 20px;
+    background: #1B1A1A;
+    color:#FFFFFF;
+    border-radius: 14px;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 60px;
+    width: 600px;
+}
+.p{
+    font-size: 16px;
+    width: 509px;
+}
+.a{
+    color: #1B1A1A;
+    text-decoration: none;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+}
+.hero-img{
+    height: 720px;
+    width: 720px;
+}
+.hero{
+    background:  #ECE7E4;
+
+}
+.read{
+    margin-top: 100px;
+    background: url(./IMAGE.pnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.read-content{
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: end;
+margin-right: 100px;
+}
+.three{
+    background: url(./three.pnd\ \(2\).jpg);
+    margin-top: 100px;
+}
+.three-content{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ged-text{
+    font-size: 16px;
+    color: #645c55;
+}
+.get{
+    margin-top: 100px;
+    background-color: #cec4bc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.get-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.get-title{
+    font-size: 40px;
+    width: 550px;
+}
+.get-right{
+    margin-right: 100px;
+}
+.ourfirm-author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 45%;
+  
+}
+.ourfirm {
+    padding: 100px 0;
+    display: flex;
+}
+
+
+.ourfirm-content {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: right;
+
+}
+
+.ourfirm-left {
+    width: 40%;
+}
+
+.ourfirm-title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 45px;
+    font-weight: 500;
+    color: #333;
+    width: 500px;
+    margin-top: 0 ;
+}
+
+.ourfirm-right {
+    width: 50%;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.ourfirm-right p {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    width: 45%;
+}
+
+.author-name {
+    font-weight: 600;
+    margin: 0;
+}
+
+.image{
+    width: 27%;
+    height: auto;
+
+}
+.happy{
+    background: #403E3B;
+    margin-top: 100px;
+}
+.happy-title{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.happy-text{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.happy-content{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.happy-left{
+    width: 60%;
+    margin-left: 50px;
+}
+.happy-right{
+    width: 60%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:96px;
+}
+.happy-box{
+    width: 40%;
+}
+.wirl{
+    background: url(./swirl.png);
+    margin-top: 100px;
+}
+.wirl-content{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-left: 100px;
+}
+.how {
+    margin-top: 100px;
+}
+
+.how-title {
+    text-align: center;
+    font-size: 39px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.how-text {
+    text-align: center;
+}
+
+.how-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-content {
+    display: flex;
+    margin-top: 49px;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.how-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
+
+.how-card-icon {
+    margin-bottom: 20px;
+}
+
+.how-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.how-card-text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 250px;
+}
+
+
+.feat {
+    margin-top: 100px;
+
+}
+
+.feat-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0 auto ;
+}
+
+.feat-content h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.feat-content p {
+    font-size: 16px;
+    margin-top: 5px;  
+    margin-bottom: 30px;
+}
+
+.feat-content a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+
+.feat-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    
+}
+.hero-img {
+    padding: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.meet {
+    margin-top: 100px;
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.meet-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.meet-left {
+    width: 35%;
+    min-width: 300px;
+}
+
+.meet-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.meet-text {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    max-width: 360px;
+}
+
+.meet-link {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #000;
+}
+
+.meet-right {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.meet-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 45%;
+    min-width: 250px;
+}
+
+.meet-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.meet-wrap h3 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.meet-name {
+    color: #645C55;
+    margin: 0;
+    font-size: 14px;
+}
+.end-text{
+    font-size: 16px;
+    color:#645C55;
+}
+.end{
+    margin-top: 100px;
+    background-color: #F7F7F7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.end-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.end-title{
+    font-size: 40px;
+    width: 550px;
+}
+.end-right{
+    margin-right: 100px;
+    
+}
+.end-image{
+    margin: 10px;
+    Width:  24px;
+    Height: 20px;
+    margin-top: 145px;
+}
